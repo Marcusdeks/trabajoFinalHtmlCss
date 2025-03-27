@@ -1,0 +1,99 @@
+/*AVISO LEGAL*/
+.plegal{
+    width: 97%; height: 97%; 
+    margin-left: 15px;
+    margin-top: 10px;
+    overflow: auto;
+    font-weight: bold; 
+}
+.contenedor{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+.h1avis{
+    color: blue;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.cajacondi{
+    border: solid 1px black;
+}
+/*----------------*/
+
+/*CONTACTO*/
+.info{
+    height: 50px;
+    width: 100px;
+    border: 1px solid black ;
+}
+/*----------------*/
+
+/*GALERIA*/
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    overflow: hidden;
+    row-gap: 150px; 
+    column-gap: 150px; 
+    gap: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.contenedor img{
+height: 200px;
+width: 150px;
+}
+.txtimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.txtimg span{
+    padding: 5px;
+    background-color: white;
+    /*transform: translateY(-40px);*/
+}
+.ft{
+width: 100%; height: 100%;
+object-fit: cover;
+}
+
+@media screen and(max-width: 700px) {
+.contenedor, .ft{
+    flex-direction: column;
+    }
+}
+/*-------------*/
+
+/*PRESUPUESTOS*/
+.li{
+    display: block;
+    margin-left: 15px;
+}
+.litit{
+    display: block;
+    
+}
+
+.info{
+    height: 50px;
+    width: 100px;
+    border: 1px solid black ;
+}
+.divpresu{
+    margin-left: 17px;
+}
+/*-----------*/
+/*todos*/
+.espaciado{
+    margin: 20px 0;
+}
