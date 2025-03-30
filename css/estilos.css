@@ -25,7 +25,7 @@ nav{
 
 main{
     flex: 1;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.4);
 }
 footer{
     height: 100px;
@@ -81,4 +81,7 @@ nav a:hover{
 .divtxt{
     text-align: center;
     margin-bottom: 40px;
+}
+.espaciado{
+    margin: 20px 0;
 }

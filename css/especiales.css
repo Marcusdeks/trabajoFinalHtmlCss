@@ -67,7 +67,7 @@ width: 100%; height: 100%;
 object-fit: cover;
 }
 
-@media screen and(max-width: 700px) {
+@media screen and (max-width: 700px) {
 .contenedor, .ft{
     flex-direction: column;
     }
@@ -93,7 +93,3 @@ object-fit: cover;
     margin-left: 17px;
 }
 /*-----------*/
-/*todos*/
-.espaciado{
-    margin: 20px 0;
-}
